@@ -70,13 +70,6 @@ loginForm.addEventListener('submit', (e) => {
     // Simulate login (in a real application, this would be an API call)
     showMessage('¡Inicio de sesión exitoso! Bienvenido.', 'success');
     
-    // Log credentials to console for demonstration
-    console.log('Login attempt:', {
-        email: email,
-        password: '********',
-        remember: remember
-    });
-    
     // Optional: Clear the form after successful login
     setTimeout(() => {
         // In a real app, you would redirect to another page here
